@@ -21,7 +21,6 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 {% set nb_title = nb.metadata.get('title', '') or resources['metadata']['name'] %}
-<title>{{nb_title}} slides</title>
 
 {%- block html_head_js -%}
 {%- block html_head_js_jquery -%}
@@ -108,11 +107,6 @@ a.anchor-link {
 <meta name="description" content="In this Pycon PH 2022 talk, Marvin discusses Jupyter Notebooks and how libraries represent Python  objects for bettter developer experience.">
 <meta name="ketwords" content="Marvin Tensuan,python,pycon,pyconph,Jupyter Notebook">
 <title>Object Representation in Jupyter | Marvin Tensuan</title>
-
-<script defer>
-document.title = "Object Representation in Jupyter | Marvin Tensuan"; 
-</script>
-
 <!--------------- END OF MARVIN ------->
 
 </head>
