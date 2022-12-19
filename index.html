@@ -14649,6 +14649,18 @@ div.jp-OutputPrompt {
 <meta name="author" content="Marvin Tensuan">
 <meta name="description" content="In this Pycon PH 2022 talk, Marvin discusses Jupyter Notebooks and how libraries represent Python  objects for bettter developer experience.">
 <meta name="ketwords" content="Marvin Tensuan,python,pycon,pyconph,Jupyter Notebook">
+
+<meta property="og:title" content="Object Representation in Jupyter" />
+<meta property="og:description" content="PyCon 2023 talk presented by Marvin Tensuan." />
+<meta property="og:type" content="article" />
+<!-- <meta property="og:image" content="..." /> -->
+
+<meta property="twitter:title" content="Object Representation in Jupyter" />
+<meta property="twitter:description" content="PyCon 2023 talk presented by Marvin Tensuan." />
+<!-- <meta property="twitter:image" content="..." /> -->
+<meta property="twitter:site" content="@marvintensuan" />
+
+
 <title>Object Representation in Jupyter | Marvin Tensuan</title>
 <!--------------- END OF MARVIN ------->
 
@@ -15544,44 +15556,44 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_ef579">
+<table id="T_08789">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_ef579_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_ef579_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_ef579_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_ef579_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_08789_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_08789_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_08789_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_08789_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_ef579_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_ef579_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_ef579_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_ef579_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_ef579_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_08789_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_08789_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_08789_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_08789_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_08789_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_ef579_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_ef579_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_ef579_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_ef579_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_ef579_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_08789_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_08789_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_08789_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_08789_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_08789_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_ef579_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_ef579_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_ef579_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_ef579_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_ef579_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_08789_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_08789_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_08789_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_08789_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_08789_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_ef579_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_ef579_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_ef579_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_ef579_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_ef579_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_08789_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_08789_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_08789_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_08789_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_08789_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
@@ -15627,19 +15639,19 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 <pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">style</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">type</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"text/css"</span><span style="font-weight: bold">&gt;</span>
 <span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">style</span><span style="font-weight: bold">&gt;</span>
-<span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">table</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_ef579"</span><span style="font-weight: bold">&gt;</span>
+<span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">table</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_08789"</span><span style="font-weight: bold">&gt;</span>
   <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">thead</span><span style="font-weight: bold">&gt;</span>
     <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">tr</span><span style="font-weight: bold">&gt;</span>
       <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"blank level0"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>&amp;nbsp;<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
-      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_ef579_level0_col0"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col0"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>A<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
-      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_ef579_level0_col1"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col1"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>B<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
-      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_ef579_level0_col2"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col2"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>C<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
-      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_ef579_level0_col3"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col3"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>D<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
+      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_08789_level0_col0"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col0"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>A<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
+      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_08789_level0_col1"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col1"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>B<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
+      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_08789_level0_col2"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col2"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>C<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
+      <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">th</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">id</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"T_08789_level0_col3"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="color: #808000; text-decoration-color: #808000">class</span><span style="color: #000000; text-decoration-color: #000000">=</span><span style="color: #008000; text-decoration-color: #008000">"col_heading level0 col3"</span><span style="color: #000000; text-decoration-color: #000000"> </span><span style="font-weight: bold">&gt;</span>D<span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">th</span><span style="font-weight: bold">&gt;</span>
     <span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">tr</span><span style="font-weight: bold">&gt;</span>
   <span style="font-weight: bold">&lt;</span><span style="color: #800080; text-decoration-color: #800080">/</span><span style="color: #ff00ff; text-decoration-color: #ff00ff">thead</span><span style="font-weight: bold">&gt;</span>
   <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">tbody</span><span style="font-weight: bold">&gt;</span>
     <span style="font-weight: bold">&lt;</span><span style="color: #ff00ff; text-decoration-color: #ff00ff; font-weight: bold">tr</span><span style="font-weight: bold">&gt;</span>
-      &lt;th <span style="color: #808000; text-decoration-color: #808000">id</span>=<span style="color: #008000; text-decoration-color: #008000">"T_ef579_level0_row0"</span> <span style="color: #808000; text-decoration-color: #808000">class</span>=<span style="color: #800080; text-decoration-color: #800080">"r</span>
+      &lt;th <span style="color: #808000; text-decoration-color: #808000">id</span>=<span style="color: #008000; text-decoration-color: #008000">"T_08789_level0_row0"</span> <span style="color: #808000; text-decoration-color: #808000">class</span>=<span style="color: #800080; text-decoration-color: #800080">"r</span>
 </pre>
 
 </div>
@@ -15683,85 +15695,85 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
-#T_5933f_row0_col0, #T_5933f_row0_col2, #T_5933f_row3_col1, #T_5933f_row3_col3 {
+#T_0ec36_row0_col0, #T_0ec36_row0_col2, #T_0ec36_row3_col1, #T_0ec36_row3_col3 {
   background-color: #08306b;
   color: #f1f1f1;
 }
-#T_5933f_row0_col1 {
+#T_0ec36_row0_col1 {
   background-color: #a6cee4;
   color: #000000;
 }
-#T_5933f_row0_col3, #T_5933f_row1_col0, #T_5933f_row1_col1, #T_5933f_row1_col2 {
+#T_0ec36_row0_col3, #T_0ec36_row1_col0, #T_0ec36_row1_col1, #T_0ec36_row1_col2 {
   background-color: #f7fbff;
   color: #000000;
 }
-#T_5933f_row1_col3 {
+#T_0ec36_row1_col3 {
   background-color: #dbe9f6;
   color: #000000;
 }
-#T_5933f_row2_col0 {
+#T_0ec36_row2_col0 {
   background-color: #083471;
   color: #f1f1f1;
 }
-#T_5933f_row2_col1 {
+#T_0ec36_row2_col1 {
   background-color: #d1e2f3;
   color: #000000;
 }
-#T_5933f_row2_col2 {
+#T_0ec36_row2_col2 {
   background-color: #b9d6ea;
   color: #000000;
 }
-#T_5933f_row2_col3 {
+#T_0ec36_row2_col3 {
   background-color: #08519c;
   color: #f1f1f1;
 }
-#T_5933f_row3_col0 {
+#T_0ec36_row3_col0 {
   background-color: #125da6;
   color: #f1f1f1;
 }
-#T_5933f_row3_col2 {
+#T_0ec36_row3_col2 {
   background-color: #3f8fc5;
   color: #f1f1f1;
 }
 </style>
-<table id="T_5933f">
+<table id="T_0ec36">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_5933f_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_5933f_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_5933f_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_5933f_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_0ec36_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_0ec36_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_0ec36_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_0ec36_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_5933f_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_5933f_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_5933f_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_5933f_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_5933f_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_0ec36_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_0ec36_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_0ec36_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_0ec36_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_0ec36_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_5933f_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_5933f_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_5933f_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_5933f_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_5933f_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_0ec36_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_0ec36_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_0ec36_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_0ec36_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_0ec36_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_5933f_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_5933f_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_5933f_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_5933f_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_5933f_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_0ec36_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_0ec36_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_0ec36_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_0ec36_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_0ec36_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_5933f_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_5933f_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_5933f_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_5933f_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_5933f_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_0ec36_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_0ec36_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_0ec36_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_0ec36_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_0ec36_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
@@ -15809,85 +15821,85 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
-#T_ffc16_row0_col0, #T_ffc16_row0_col2, #T_ffc16_row3_col1, #T_ffc16_row3_col3 {
+#T_01603_row0_col0, #T_01603_row0_col2, #T_01603_row3_col1, #T_01603_row3_col3 {
   background-color: #2c3172;
   color: #f1f1f1;
 }
-#T_ffc16_row0_col1 {
+#T_01603_row0_col1 {
   background-color: #4d9c90;
   color: #f1f1f1;
 }
-#T_ffc16_row0_col3, #T_ffc16_row1_col0, #T_ffc16_row1_col1, #T_ffc16_row1_col2 {
+#T_01603_row0_col3, #T_01603_row1_col0, #T_01603_row1_col1, #T_01603_row1_col2 {
   background-color: #a5cd90;
   color: #000000;
 }
-#T_ffc16_row1_col3 {
+#T_01603_row1_col3 {
   background-color: #7dba91;
   color: #000000;
 }
-#T_ffc16_row2_col0 {
+#T_01603_row2_col0 {
   background-color: #2c3473;
   color: #f1f1f1;
 }
-#T_ffc16_row2_col1 {
+#T_01603_row2_col1 {
   background-color: #6fb390;
   color: #f1f1f1;
 }
-#T_ffc16_row2_col2 {
+#T_01603_row2_col2 {
   background-color: #58a590;
   color: #f1f1f1;
 }
-#T_ffc16_row2_col3 {
+#T_01603_row2_col3 {
   background-color: #26487e;
   color: #f1f1f1;
 }
-#T_ffc16_row3_col0 {
+#T_01603_row3_col0 {
   background-color: #235082;
   color: #f1f1f1;
 }
-#T_ffc16_row3_col2 {
+#T_01603_row3_col2 {
   background-color: #20718b;
   color: #f1f1f1;
 }
 </style>
-<table id="T_ffc16">
+<table id="T_01603">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_ffc16_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_ffc16_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_ffc16_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_ffc16_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_01603_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_01603_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_01603_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_01603_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_ffc16_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_ffc16_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_ffc16_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_ffc16_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_ffc16_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_01603_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_01603_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_01603_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_01603_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_01603_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_ffc16_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_ffc16_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_ffc16_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_ffc16_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_ffc16_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_01603_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_01603_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_01603_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_01603_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_01603_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_ffc16_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_ffc16_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_ffc16_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_ffc16_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_ffc16_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_01603_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_01603_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_01603_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_01603_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_01603_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_ffc16_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_ffc16_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_ffc16_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_ffc16_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_ffc16_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_01603_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_01603_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_01603_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_01603_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_01603_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
@@ -16009,51 +16021,51 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
-#T_fd9d9_row0_col0, #T_fd9d9_row0_col1, #T_fd9d9_row0_col3, #T_fd9d9_row1_col0, #T_fd9d9_row1_col1, #T_fd9d9_row1_col3, #T_fd9d9_row2_col0, #T_fd9d9_row2_col1, #T_fd9d9_row2_col3, #T_fd9d9_row3_col0, #T_fd9d9_row3_col1, #T_fd9d9_row3_col3 {
+#T_e8cd6_row0_col0, #T_e8cd6_row0_col1, #T_e8cd6_row0_col3, #T_e8cd6_row1_col0, #T_e8cd6_row1_col1, #T_e8cd6_row1_col3, #T_e8cd6_row2_col0, #T_e8cd6_row2_col1, #T_e8cd6_row2_col3, #T_e8cd6_row3_col0, #T_e8cd6_row3_col1, #T_e8cd6_row3_col3 {
   background-color: #A0E7E5;
 }
-#T_fd9d9_row0_col2, #T_fd9d9_row1_col2, #T_fd9d9_row2_col2, #T_fd9d9_row3_col2 {
+#T_e8cd6_row0_col2, #T_e8cd6_row1_col2, #T_e8cd6_row2_col2, #T_e8cd6_row3_col2 {
   background-color: #B4F8C8;
 }
 </style>
-<table id="T_fd9d9">
+<table id="T_e8cd6">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_fd9d9_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_fd9d9_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_fd9d9_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_fd9d9_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_e8cd6_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_e8cd6_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_e8cd6_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_e8cd6_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_fd9d9_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_fd9d9_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_fd9d9_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_fd9d9_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_fd9d9_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_e8cd6_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_e8cd6_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_e8cd6_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_e8cd6_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_e8cd6_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_fd9d9_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_fd9d9_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_fd9d9_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_fd9d9_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_fd9d9_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_e8cd6_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_e8cd6_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_e8cd6_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_e8cd6_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_e8cd6_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_fd9d9_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_fd9d9_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_fd9d9_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_fd9d9_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_fd9d9_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_e8cd6_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_e8cd6_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_e8cd6_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_e8cd6_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_e8cd6_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_fd9d9_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_fd9d9_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_fd9d9_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_fd9d9_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_fd9d9_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_e8cd6_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_e8cd6_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_e8cd6_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_e8cd6_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_e8cd6_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
@@ -16099,51 +16111,51 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
-#T_e647a_row0_col0, #T_e647a_row0_col1, #T_e647a_row1_col0, #T_e647a_row1_col1, #T_e647a_row3_col0, #T_e647a_row3_col1 {
+#T_80eb3_row0_col0, #T_80eb3_row0_col1, #T_80eb3_row1_col0, #T_80eb3_row1_col1, #T_80eb3_row3_col0, #T_80eb3_row3_col1 {
   background-color: #A0E7E5;
 }
-#T_e647a_row2_col0, #T_e647a_row2_col1 {
+#T_80eb3_row2_col0, #T_80eb3_row2_col1 {
   background-color: #B4F8C8;
 }
 </style>
-<table id="T_e647a">
+<table id="T_80eb3">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_e647a_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_e647a_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_e647a_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_e647a_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_80eb3_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_80eb3_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_80eb3_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_80eb3_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_e647a_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_e647a_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_e647a_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_e647a_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_e647a_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_80eb3_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_80eb3_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_80eb3_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_80eb3_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_80eb3_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_e647a_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_e647a_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_e647a_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_e647a_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_e647a_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_80eb3_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_80eb3_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_80eb3_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_80eb3_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_80eb3_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_e647a_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_e647a_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_e647a_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_e647a_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_e647a_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_80eb3_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_80eb3_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_80eb3_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_80eb3_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_80eb3_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_e647a_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_e647a_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_e647a_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_e647a_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_e647a_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_80eb3_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_80eb3_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_80eb3_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_80eb3_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_80eb3_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
@@ -16209,48 +16221,48 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
-#T_c0e8e_row0_col1, #T_c0e8e_row0_col3, #T_c0e8e_row1_col0, #T_c0e8e_row1_col1, #T_c0e8e_row1_col2, #T_c0e8e_row1_col3, #T_c0e8e_row2_col1, #T_c0e8e_row2_col2 {
+#T_2e57c_row0_col1, #T_2e57c_row0_col3, #T_2e57c_row1_col0, #T_2e57c_row1_col1, #T_2e57c_row1_col2, #T_2e57c_row1_col3, #T_2e57c_row2_col1, #T_2e57c_row2_col2 {
   background-color: #a0e7e5;
 }
 </style>
-<table id="T_c0e8e">
+<table id="T_2e57c">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_c0e8e_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_c0e8e_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_c0e8e_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_c0e8e_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_2e57c_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_2e57c_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_2e57c_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_2e57c_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_c0e8e_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_c0e8e_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_c0e8e_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_c0e8e_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_c0e8e_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_2e57c_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_2e57c_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_2e57c_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_2e57c_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_2e57c_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_c0e8e_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_c0e8e_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_c0e8e_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_c0e8e_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_c0e8e_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_2e57c_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_2e57c_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_2e57c_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_2e57c_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_2e57c_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_c0e8e_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_c0e8e_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_c0e8e_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_c0e8e_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_c0e8e_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_2e57c_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_2e57c_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_2e57c_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_2e57c_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_2e57c_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_c0e8e_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_c0e8e_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_c0e8e_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_c0e8e_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_c0e8e_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_2e57c_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_2e57c_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_2e57c_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_2e57c_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_2e57c_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
@@ -16314,49 +16326,49 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
-#T_3a948_level0_col0, #T_3a948_level0_col1, #T_3a948_level0_col2, #T_3a948_level0_col3 {
+#T_9820c_level0_col0, #T_9820c_level0_col1, #T_9820c_level0_col2, #T_9820c_level0_col3 {
   background-color: #254b7f;
   color: white;
 }
 </style>
-<table id="T_3a948">
+<table id="T_9820c">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_3a948_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_3a948_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_3a948_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_3a948_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_9820c_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_9820c_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_9820c_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_9820c_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_3a948_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_3a948_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_3a948_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_3a948_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_3a948_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_9820c_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_9820c_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_9820c_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_9820c_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_9820c_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_3a948_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_3a948_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_3a948_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_3a948_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_3a948_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_9820c_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_9820c_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_9820c_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_9820c_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_9820c_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_3a948_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_3a948_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_3a948_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_3a948_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_3a948_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_9820c_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_9820c_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_9820c_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_9820c_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_9820c_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_3a948_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_3a948_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_3a948_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_3a948_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_3a948_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_9820c_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_9820c_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_9820c_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_9820c_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_9820c_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
@@ -16423,49 +16435,49 @@ $$ \displaystyle \begin{array}{l} m = \mathrm{len}\left(y\right) \\ \frac{{1}}{{
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
-#T_6d63d_level0_row0, #T_6d63d_level0_row2 {
+#T_e0f97_level0_row0, #T_e0f97_level0_row2 {
   background-color: #254b7f;
   color: white;
 }
 </style>
-<table id="T_6d63d">
+<table id="T_e0f97">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th id="T_6d63d_level0_col0" class="col_heading level0 col0" >A</th>
-      <th id="T_6d63d_level0_col1" class="col_heading level0 col1" >B</th>
-      <th id="T_6d63d_level0_col2" class="col_heading level0 col2" >C</th>
-      <th id="T_6d63d_level0_col3" class="col_heading level0 col3" >D</th>
+      <th id="T_e0f97_level0_col0" class="col_heading level0 col0" >A</th>
+      <th id="T_e0f97_level0_col1" class="col_heading level0 col1" >B</th>
+      <th id="T_e0f97_level0_col2" class="col_heading level0 col2" >C</th>
+      <th id="T_e0f97_level0_col3" class="col_heading level0 col3" >D</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th id="T_6d63d_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_6d63d_row0_col0" class="data row0 col0" >0.976700</td>
-      <td id="T_6d63d_row0_col1" class="data row0 col1" >0.380196</td>
-      <td id="T_6d63d_row0_col2" class="data row0 col2" >0.923246</td>
-      <td id="T_6d63d_row0_col3" class="data row0 col3" >0.261692</td>
+      <th id="T_e0f97_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_e0f97_row0_col0" class="data row0 col0" >0.976700</td>
+      <td id="T_e0f97_row0_col1" class="data row0 col1" >0.380196</td>
+      <td id="T_e0f97_row0_col2" class="data row0 col2" >0.923246</td>
+      <td id="T_e0f97_row0_col3" class="data row0 col3" >0.261692</td>
     </tr>
     <tr>
-      <th id="T_6d63d_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_6d63d_row1_col0" class="data row1 col0" >0.319097</td>
-      <td id="T_6d63d_row1_col1" class="data row1 col1" >0.118091</td>
-      <td id="T_6d63d_row1_col2" class="data row1 col2" >0.241766</td>
-      <td id="T_6d63d_row1_col3" class="data row1 col3" >0.318534</td>
+      <th id="T_e0f97_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_e0f97_row1_col0" class="data row1 col0" >0.319097</td>
+      <td id="T_e0f97_row1_col1" class="data row1 col1" >0.118091</td>
+      <td id="T_e0f97_row1_col2" class="data row1 col2" >0.241766</td>
+      <td id="T_e0f97_row1_col3" class="data row1 col3" >0.318534</td>
     </tr>
     <tr>
-      <th id="T_6d63d_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_6d63d_row2_col0" class="data row2 col0" >0.964079</td>
-      <td id="T_6d63d_row2_col1" class="data row2 col1" >0.263650</td>
-      <td id="T_6d63d_row2_col2" class="data row2 col2" >0.441006</td>
-      <td id="T_6d63d_row2_col3" class="data row2 col3" >0.609871</td>
+      <th id="T_e0f97_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_e0f97_row2_col0" class="data row2 col0" >0.964079</td>
+      <td id="T_e0f97_row2_col1" class="data row2 col1" >0.263650</td>
+      <td id="T_e0f97_row2_col2" class="data row2 col2" >0.441006</td>
+      <td id="T_e0f97_row2_col3" class="data row2 col3" >0.609871</td>
     </tr>
     <tr>
-      <th id="T_6d63d_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_6d63d_row3_col0" class="data row3 col0" >0.863621</td>
-      <td id="T_6d63d_row3_col1" class="data row3 col1" >0.863758</td>
-      <td id="T_6d63d_row3_col2" class="data row3 col2" >0.674881</td>
-      <td id="T_6d63d_row3_col3" class="data row3 col3" >0.659874</td>
+      <th id="T_e0f97_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_e0f97_row3_col0" class="data row3 col0" >0.863621</td>
+      <td id="T_e0f97_row3_col1" class="data row3 col1" >0.863758</td>
+      <td id="T_e0f97_row3_col2" class="data row3 col2" >0.674881</td>
+      <td id="T_e0f97_row3_col3" class="data row3 col3" >0.659874</td>
     </tr>
   </tbody>
 </table>
