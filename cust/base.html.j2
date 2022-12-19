@@ -1,0 +1,40 @@
+{%- extends 'lab/base.html.j2' -%}
+
+{%- block any_cell scoped -%}
+{%- if cell.metadata.get('slide_start', False) -%}
+<section>
+{%- endif -%}
+{%- if cell.metadata.get('subslide_start', False) -%}
+<section>
+{%- endif -%}
+{%- if cell.metadata.get('fragment_start', False) -%}
+<div class="fragment">
+{%- endif -%}
+
+{%- if cell.metadata.slide_type == 'notes' -%}
+<aside class="notes">
+{{ super() }}
+</aside>
+{%- elif cell.metadata.slide_type == 'skip' -%}
+{%- else -%}
+{{ super() }}
+{%- endif -%}
+
+{%- if cell.metadata.get('fragment_end', False) -%}
+</div>
+{%- endif -%}
+{%- if cell.metadata.get('subslide_end', False) -%}
+</section>
+{%- endif -%}
+{%- if cell.metadata.get('slide_end', False) -%}
+</section>
+{%- endif -%}
+{%- endblock any_cell -%}
+
+{% block my_meta_tags %}
+<!-- Adding meta tags for clout :D-->
+<meta name="author" content="Marvin Tensuan">
+<meta name="description" content="In this Pycon PH 2023 talk, Marvin discusses Jupyter Notebooks and how libraries represent Python  objects for bettter developer experience.">
+<meta name="ketwords" content="Marvin Tensuan,python,pycon,pyconph,Jupyter Notebook">
+<title>Object Representation in Jupyter | Marvin Tensuan</title>
+{% endblock my_meta_tags %}
